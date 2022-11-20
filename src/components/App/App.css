@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+html {
+  color: white;
+}
+
+.App {
+  font-family: 'Kalam', cursive;
+  position: fixed;
+  text-align: center;
+  background-color: var(--color1);
+  background-image: linear-gradient(23deg, var(--color1) 0%, var(--color3) 48%, var(--color5));
+  min-height: 100vh;
+  width: 100%;
+}

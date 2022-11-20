@@ -1,0 +1,55 @@
+export const fakeUsers = 
+    [
+        {
+            "name":{
+                "title":"Miss",
+                "first":"Melissa",
+                "last":"Nielsen"
+            },
+            "email":"melissa.nielsen@example.com",
+            "login":{
+                "uuid":"b94bfd4a-49ee-4cef-85b0-7ceb9e0f0581",
+                "username":"beautifulladybug795",
+                "password":"pitch",
+                "salt":"L35X50qu",
+                "md5":"65fd9dea122e9b21bf2b6a4bfc163de1",
+                "sha1":"2dd8759edb43d0a3fb26b3772df8a7a309cd5d26",
+                "sha256":"f546a31e18ca4d1f756be79585391a1b19a862c819ee28622ab7ea2fc9d32379"
+            },
+            "cell":"0178-2784829"
+        }, {
+            "name":{
+                "title":"Ms",
+                "first":"Harriet",
+                "last":"Zhang"
+            },
+            "email":"harriet.zhang@example.com",
+            "login":{
+                "uuid":"5fa96894-d19c-41d4-bd66-ffb54f3a6933",
+                "username":"happywolf958",
+                "password":"hank",
+                "salt":"gJVf1sC2",
+                "md5":"b05872a347298501806b474963ede1d8",
+                "sha1":"321a0d26ceb4f9a720d58fe3933e5b4d2b20a3ae",
+                "sha256":"e62bf351ce64b325f9351cd88e64dd8bab0f75314608d41a3cdfaeb9ccf34aab"
+            },
+            "cell":"(648)-609-9813"
+        }, {
+            "name":{
+                "title":"Miss",
+                "first":"Martina",
+                "last":"Wetteland"
+            },
+            "email":"martina.wetteland@example.com",
+            "login":{
+                "uuid":"af3f493a-526b-4dcf-b8ec-1798e01011f7",
+                "username":"smallbutterfly516",
+                "password":"trance",
+                "salt":"izR1X9UI",
+                "md5":"db1c5fb3ecd2c996b67f6fd675145519",
+                "sha1":"b57175eb3f5f3c85b8423e923da6c64e1ecb7572",
+                "sha256":"eab4837d234583de0fe4fb8741ec9554f795fa5183314baaa84f1f5787ae6413"
+            },
+            "cell":"44704239"}
+        
+        ]
