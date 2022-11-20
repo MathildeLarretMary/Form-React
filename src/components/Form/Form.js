@@ -25,12 +25,14 @@ export default function Form () {
 
     useEffect(() => {
         setUsers(fakeUsers);
-    }, [])
+        // console.log(users);
+    }, [users])
 
     useEffect(() => {
         // if a user is find on dataBase, able to submit
         checkToSubmit(users, userValue, userPassword, setCheck, setUser)
-    }, [userPassword, userValue, users, check])
+        // console.log(check, userPassword, userValue);
+    }, [userPassword, userValue, users])
 
 
     const handleSubmit = (e) => {

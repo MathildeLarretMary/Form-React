@@ -1,6 +1,5 @@
 // https://randomuser.me/api/?inc=login,name,cell,email
 
-let userChecked
 /**
  * 
  * @param {Object} usersArray - all users in dataBase
@@ -10,16 +9,24 @@ let userChecked
  * @param {*} setUser - takes the setter to return user checked values
  */
 export const checkToSubmit = ( usersArray, userValue, userPassword, setCheck, setUser ) => {
+    
+    let userChecked
+
     usersArray.forEach(user => {
         if((userValue === user.login.username || userValue === user.email) && userPassword === user.login.password){
-            setCheck(true);
-            setUser(user);
+            userChecked = user
         } else { 
-            setCheck(false);
-            setUser([]);
-            return;
+            return 
         }    
     })
-}
 
-export { userChecked }
+    if(typeof userChecked === 'object') {
+        setCheck(true)
+        setUser(userChecked)
+        console.log('check');
+    } else {
+        setCheck(false)
+        setUser([])
+        console.log('not check');
+    }
+}
